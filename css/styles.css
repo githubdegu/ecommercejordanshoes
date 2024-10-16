@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: ;
+}
+
+:root {
+    --cor-logo: #7CA2F4;
+    --preto: #121214;
+    --cinza: #F3F7FF;
+    --branco: #FFFFFF;
+}
+
+.notice {
+    background-color: var (--cinza);
+
+    padding: 0.75rem 0;
+}
+
+.notice p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--preto);
+}
+
+header {
+    background-image: url("../images/image-michael-jordan.png");
+    background-position: center top;
+    background-size: cover;
+    width: 100%;
+    height: 21.875rem;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    padding-inline: 1.5rem;
+
+}
+
+header img {
+    width: 8.875rem;
+    margin-bottom: 2.5rem;
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.header-info h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--branco);
+}
+
+.header-info p {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--branco);
+}
