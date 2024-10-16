@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Archivo", sans-serif;
 }
 
 :root {
@@ -135,7 +135,7 @@ section>p {
 }
 
 .card .sneaker-price {
-    font-family: ;
+    font-family: "Space Grotesk", sans-serif;
     font-weight: 500;
     font-size: 1.25rem;
     color: var(--preto);
@@ -144,7 +144,7 @@ section>p {
 
 footer {
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: var(--title-font);
     font-size: 0.75rem;
     color: var(--preto);
 }
