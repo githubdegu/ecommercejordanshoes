@@ -27,6 +27,18 @@ body {
     color: var(--preto);
 }
 
+.notice-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.notice-content img {
+    width: 1.5rem;
+    height: auto;
+}
+
 header {
     background-image: url("../images/image-michael-jordan.png");
     background-position: center top;
